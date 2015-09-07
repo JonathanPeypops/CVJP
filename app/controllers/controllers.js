@@ -14,6 +14,9 @@ angular.module('CV.controllers', ['ngRoute'])
         $routeProvider.when('/diploma', {
             templateUrl: 'app/views/diploma.html'
         })
+         $routeProvider.when('/myCarousel', {
+            templateUrl: 'app/views/diploma.html'
+        })
 
         $routeProvider.otherwise({redirectTo: '/home'})
     })
